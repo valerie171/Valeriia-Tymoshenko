@@ -99,4 +99,29 @@
   .navbar-brand {
     margin-left: 40px;
   }
-  
+  @media (max-width:576px){
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 32px;  
+    }
+    .home-images{
+display: none;
+    }
+    .description{
+    text-align: center;
+    margin: 0 auto;
+    }
+    p{
+        text-align: center;
+    }
+    .primary-link{
+        display: block;
+        margin: 0 20px;
+    }
+    .about-img{
+        display: block;
+        margin: 0 auto;
+    }
+  }
